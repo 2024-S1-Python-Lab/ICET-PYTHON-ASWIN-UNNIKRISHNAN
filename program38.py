@@ -8,3 +8,7 @@ with open(filename2,'w') as file2:
             file2.write(lines[i])
 
 print("Odd lines copied to 'filename2'.")
+
+with open(filename2,'r') as file2:
+    lines=file2.readlines()
+    print(lines)
